@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 2;
+    background: url(../../../src/images/NLP.jpeg) no-repeat center center fixed; 
+    //background-image: "../../../src/images/NLP.jpeg";
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-size: cover;
+    // background-color: #322675;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
